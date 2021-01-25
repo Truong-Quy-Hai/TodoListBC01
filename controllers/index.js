@@ -77,3 +77,9 @@ document.getElementById("addItem").onclick = async () => {
 };
 
 getAllTask();
+
+
+// Viết chức năng tìm kiếm
+let searchTask = (task) => {
+  console.log(task);
+}
